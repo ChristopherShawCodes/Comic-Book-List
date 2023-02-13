@@ -112,7 +112,7 @@ small {
 @media screen and (max-width: 480px) {
   h1 {
     color: var(--teal);
-    font-size: 6rem;
+    font-size: 3rem;
     text-align: center;
     opacity: 0.4;
     cursor: default;
