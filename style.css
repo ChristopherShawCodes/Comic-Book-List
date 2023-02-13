@@ -125,9 +125,9 @@ small {
   }
 
   .comics li.completed {
-    text-decoration: line-through var(--white);
+    text-decoration: line-through ;
     font-style: italic;
     background-color: var(--teal);
-    opacity: 0.2;
+    opacity: 0.4;
   }
 }
