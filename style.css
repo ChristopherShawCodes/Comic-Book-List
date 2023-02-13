@@ -123,4 +123,11 @@ small {
     max-width: 100%;
     width: 300px;
   }
+
+  .comics li.completed {
+    text-decoration: line-through var(--white);
+    font-style: italic;
+    background-color: var(--teal);
+    opacity: 0.5;
+  }
 }
