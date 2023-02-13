@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>My Comic Books</title>
+  </head>
+  <body>
+    <h1>Comic Book List</h1>
+    <small
+      >Click on a comic book to mark as <span class="sold">SOLD</span>
+      <br />
+      Double click to delete from list
+    </small>
+    <form id="form">
+      <input
+        class="input"
+        id="input"
+        type="text"
+        placeholder="Amazing Spiderman #361 CGC 9.8"
+        autocomplete="off"
+      />
+      <ul class="comics" id="comics"></ul>
+    </form>
+
+    <div class="footer">
+      <p>Coded By Christopher Shaw</p>
+      <a class="logo" href="https://github.com/FramedGames1">Github</a>
+      <img src="./icon.png" class="icon" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
