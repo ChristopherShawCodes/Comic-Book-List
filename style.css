@@ -128,6 +128,6 @@ small {
     text-decoration: line-through var(--white);
     font-style: italic;
     background-color: var(--teal);
-    opacity: 0.5;
+    opacity: 0.2;
   }
 }
